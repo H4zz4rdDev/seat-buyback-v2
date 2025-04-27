@@ -3,6 +3,7 @@
   "description": "Buyback V2",
   "minimum-stability": "stable",
   "type": "seat-plugin",
+  "version": "1.0.1",
   "license": "GPL-3.0",
   "authors": [
     {
@@ -21,7 +22,11 @@
     "eveseat/web": "^5.0.1",
     "eveseat/eveapi": "^5.0.1",
     "ext-json": "*",
-    "etdsolutions/flatpickr": "^2.6.1"
+    "etdsolutions/flatpickr": "^2.6.1",
+    "spatie/laravel-discord-alerts": "1.7.0"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "2.1.12"
   },
   "extra": {
     "laravel": {
