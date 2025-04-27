@@ -7,7 +7,7 @@ Route::group([
     Route::prefix('/buyback')
         ->group(function () {
             Route::get('/')
-                ->name('SeatBuybackV2.home')
+                ->name('seatbuybackv2.home')
                 ->uses('BuybackV2DashboardController@getHome');
         });
 });

@@ -74,7 +74,7 @@ class SeatBuybackV2ServiceProvider extends AbstractSeatPlugin
      */
     private function add_translations(): void
     {
-        $this->loadTranslationsFrom(__DIR__ . '/resources/lang', 'SeatBuybackV2');
+        $this->loadTranslationsFrom(__DIR__ . '/resources/lang', 'seatbuybackv2');
     }
 
     /**
@@ -82,6 +82,6 @@ class SeatBuybackV2ServiceProvider extends AbstractSeatPlugin
      */
     private function add_views(): void
     {
-        $this->loadViewsFrom(__DIR__ . '/resources/views', 'SeatBuybackV2');
+        $this->loadViewsFrom(__DIR__ . '/resources/views', 'seatbuybackv2');
     }
 }

@@ -1,20 +1,20 @@
 <?php
 
 return [
-    'SeatBuybackV2' => [
+    'seatbuybackv2' => [
         'name' => 'menu-entry-name',
-        'label' => 'SeatBuybackV2::menu.main_level',
+        'label' => 'seatbuybackv2::menu.main_level',
         'plural' => true,
         'icon' => 'fas fa-certificate',
-        'route_segment' => 'SeatBuybackV2',
-        'permission' => 'SeatBuybackV2.view',
+        'route_segment' => 'seatbuybackv2',
+        'permission' => 'seatbuybackv2.view',
         'entries' => [
             [
-                'name' => 'SeatBuybackV2-home-sub-menu',
-                'label' => 'SeatBuybackV2::menu.sub-home-level',
+                'name' => 'seatbuybackv2-home-sub-menu',
+                'label' => 'seatbuybackv2::menu.sub-home-level',
                 'icon' => 'fas fa-home',
-                'route' => 'SeatBuybackV2.home',
-                'permission' => 'SeatBuybackV2.view'
+                'route' => 'seatbuybackv2.home',
+                'permission' => 'seatbuybackv2.view'
             ],
         ],
     ]
