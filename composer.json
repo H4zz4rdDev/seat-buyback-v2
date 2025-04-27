@@ -23,7 +23,8 @@
     "eveseat/eveapi": "^5.0.1",
     "ext-json": "*",
     "etdsolutions/flatpickr": "^2.6.1",
-    "spatie/laravel-discord-alerts": "1.7.0"
+    "spatie/laravel-discord-alerts": "1.7.0",
+    "cryptatech/seat-prices-janice": "1.0.1"
   },
   "require-dev": {
     "phpstan/phpstan": "2.1.12"
